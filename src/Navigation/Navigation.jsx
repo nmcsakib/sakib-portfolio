@@ -1,4 +1,4 @@
-import {FaSearch, FaHome, FaBars,FaTimes, FaUserAlt, FaBoxes, FaPhoneAlt, FaShapes} from 'react-icons/fa';
+import { FaHome, FaBars,FaTimes, FaUserAlt, FaBoxes, FaPhoneAlt, FaShapes} from 'react-icons/fa';
 import profile from '../assets/profile.png'
 import { useState } from 'react';
 import { motion } from 'framer-motion'
