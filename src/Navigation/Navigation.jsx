@@ -7,7 +7,7 @@ const Navigation = () => {
 return (
     <>
     {
-        close && <button className="p-4 fixed top-10 left-10 text-[#fff] rounded-full bg-transparent border z-50" onClick={() => {
+        close && <button className="p-4 fixed top-10 left-3 md:left-10 text-[#fff] rounded-full bg-transparent border z-50" onClick={() => {
 			setClose(false)
 			}}>
         <FaBars/>
