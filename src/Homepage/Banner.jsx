@@ -39,13 +39,13 @@ const Banner = () => {
 
 return (
 <div className="container-primary" id="home">
-    <div className="flex justify-between items-start">
+    <div className="flex flex-col md:flex-row justify-between items-start">
         <aside>
         <h1 className="text-6xl tracking-widest font-bold">NMC</h1>
     <p className="text-lg tracking-[1.4em]">SAKIB</p>
         </aside>
         <aside>
-            <p className="text-md font-semibold leading-5 tracking-widest mt-3"> &lt; Front-end <br /> web developer. /&gt;</p>
+            <p className="text-sm md:text-md font-semibold leading-5 tracking-widest mt-3"> &lt; Front-end <br /> web developer. /&gt;</p>
         </aside>
     </div>
 <div className="flex justify-center items-center flex-col"> 
@@ -53,7 +53,7 @@ return (
     <img className='w-64' src={profile} alt="" />
 </div>
 <p className="text-md font-thin tracking-widest text-center w-5/6 mt-2 mx-auto">Hello, this is <span className="font-bold text-lg tracking-[0.3em]">SAKIB</span>. A passionate web developer from <span className='font-bold text-transparent bg-gradient-to-br bg-gradient-radial from-green-500 to-red-500 bg-clip-text'>Bangladesh.</span><br />
-I am curious about <span ref={el}>React.js</span>
+I am curious about <br /> <span ref={el}>React.js</span>
 </p>
 <span className='mt-5'>
 <span  onClick={handleDownload}>

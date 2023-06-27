@@ -63,7 +63,7 @@ return (
 		<div>
 			<h2 className="text-lg font-semibold tracking-wider">SAKIB</h2>
 			<span className="flex items-center space-x-1">
-				<a rel="noopener noreferrer" href="#" className="text-xs hover:underline text-gray-400">See resume</a>
+				<a rel="noopener noreferrer" target='_blank' href="https://drive.google.com/file/d/16ayRIwLRvgONEPyPL1mAraKOQkQPoTMl/view?usp=drive_link" className="text-xs hover:underline text-gray-400">See resume</a>
 			</span>
 		</div>
 	</div>

@@ -41,7 +41,7 @@ return (
     <div data-aos="flip-up" data-aos-duration={1200}>
         <h2 className="text-3xl text-center my-5 border py-3 bg-white text-[#1f1f1f] inter font-bold"><span className="text-7xl">10+</span> completed projects_</h2>
     </div>
-    <div className="grid grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-3 gap-8">
         
          
 {

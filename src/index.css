@@ -34,7 +34,7 @@ body{
   }
 }
 .container-primary{
-  @apply border-[0.5px] inter text-white mb-8 border-[#565656] p-10 rounded-2xl 
+  @apply border-[0.5px] inter text-white mb-8 border-[#565656] p-3 md:p-10 rounded-2xl 
 }
 
 .wrapper{

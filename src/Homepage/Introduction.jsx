@@ -7,7 +7,7 @@ return (<>
     <SectionSubTitle text="Introduction"/>
 <div className="container-primary border-none" id="introduction">
 <div>
-    <h1  data-aos="fade-up" className="text-7xl leading-[1.2] inter text-white">
+    <h1  data-aos="fade-up" className="text-3xl md:text-7xl leading-[1.2] inter text-white">
         It&#39;s Nur Mohammad <br /> Chowdhury <span className="text-[#42ccc4]">Sakib</span>, <br />
         A Passionate Web developer_
     </h1>
