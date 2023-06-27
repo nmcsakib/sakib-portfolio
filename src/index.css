@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body{
+  scroll-behavior: smooth;
+}
+.text-stroke {
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;
+  letter-spacing: 3px;
+}
+
+.elite{
+  font-family: 'Special Elite', cursive;
+}
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+.longImg {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 270px;
+  transition: 8s all ease;
+
+  &:hover {
+    object-position: bottom;
+  }
+}
+.container-primary{
+  @apply border-[0.5px] inter text-white mb-8 border-[#565656] p-10 rounded-2xl 
+}
+
+.wrapper{
+ 
+  width: 100%;
+  margin: 0 auto;
+  background-color: red;
+ border-radius: 20px;
+  background: #1e1e1e;
+  box-shadow: -3px -3px 7px #2e2e2e,
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.input{
+  font-family: 'Special Elite', cursive;
+  width: 100%;
+  border: none;
+  background: #1e1e1e;
+  box-shadow: inset 2px 2px 5px #2e2e2e,
+              inset -5px -5px 10px #2e2e2e;
+  font-size: 14px;
+  padding: 17px;
+  border-radius: 10px;
+} 
+
+.social{
+  background: #1e1e1e;
+  box-shadow: -2px -2px 5px #2e2e2e,
+              1px 1px 1px #5e687949;
+  font-size: 14px;
+}
