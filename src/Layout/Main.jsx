@@ -1,4 +1,4 @@
-import AnimatedCursor from "react-animated-cursor"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -37,21 +37,7 @@ return (
 <Contact/>
 <Footer/>
 </div>
-  <AnimatedCursor 
-   innerSize={8}
-   outerSize={35}
-   innerScale={1}
-   outerScale={2}
-   outerAlpha={0}
-   hasBlendMode={true}
-   innerStyle={{
-    mixBlendMode: 'exclusion', 
-    backgroundColor: 'white'
-   }}
-   outerStyle={{
-    mixBlendMode: "difference",
-     border: '3px solid white'
-   }} />
+  
 </main>
 );
 };
