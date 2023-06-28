@@ -50,7 +50,7 @@ return (
 
     style={{ height: '100%', width: '75%', margin: 'auto', position: 'relative'}}>
 
-      <img className=" longImg " src={project.image} alt="" />
+      <img className=" longImg h-[270px] xl:h-[320px] " src={project.image} alt="" />
      
      <a href={project.link} rel="noreferrer" target="_blank" className=" text-lg text-blue-600 absolute bottom-2 text-stroke left-2 inter tracking-wider border-b-2 border-blue-500"> Preview <FaArrowCircleRight className="inline"/></a>
     

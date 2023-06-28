@@ -30,7 +30,7 @@ body{
   width: 100%;
   object-fit: cover;
   object-position: top;
-  height: 270px;
+  
   transition: 8s all ease;
 
   &:hover {
@@ -63,10 +63,14 @@ body{
   padding: 17px;
   border-radius: 10px;
 } 
-
+.social:hover{
+  box-shadow: 2px 2px 5px #2e2e2e,
+              1px 1px 1px rgba(94, 104, 121, 0.286);
+}
 .social{
+  @apply hover:bg-[#ffffff93] transition-all hover:text-[#1f1f1f] rounded-full p-3;
   background: #1e1e1e;
   box-shadow: -2px -2px 5px #2e2e2e,
-              1px 1px 1px #5e687949;
+              1px 1px 1px rgba(94, 104, 121, 0.286);
   font-size: 14px;
 }

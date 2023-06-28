@@ -23,7 +23,7 @@ const Contact = () => {
     };
 return (
     <>
-    <SectionSubTitle text="Let's work with me"/>
+    <SectionSubTitle text="Let's work together"/>
 <div className="container-primary p-[0px] border-none" data-aos="fade-up" id="contact">
     <div className="wrapper flex flex-col p-5 md:p-10">
    <form className="w-full" ref={form} onSubmit={sendEmail}>
@@ -34,11 +34,11 @@ return (
    <button className="px-3 active:bg-[#ffffff73] py-2 w-24 text-white elite social rounded-lg mt-4">Send</button>
    </form>
    <div className="flex flex-wrap md:flex-nowrap pt-5 gap-4 justify-center items-center">
-    <a href="http://www.facebook.com/sakib.sjs" target="_blank"  rel="noreferrer" className="p-3 rounded-full social"><FaFacebook/></a>
-    <a href="https://twitter.com/nmcakib01" target="_blank"  rel="noreferrer" className="p-3 rounded-full social"><FaTwitter/></a>
-    <a href="https://github.com/nmcsakib" target="_blank"  rel="noreferrer" className="p-3 rounded-full social"><FaGithub/></a>
-    <a href="https://www.linkedin.com/in/nmc-sakib/" target="_blank"  rel="noreferrer" className="p-3 rounded-full social"><FaLinkedin/></a>
-    <a href="https://stackoverflow.com/users/20857380/nmc-sakib" target="_blank"  rel="noreferrer" className="p-3 rounded-full social"><FaStackOverflow/></a>
+    <a href="http://www.facebook.com/sakib.sjs" target="_blank"  rel="noreferrer" className=" social"><FaFacebook/></a>
+    <a href="https://twitter.com/nmcakib01" target="_blank"  rel="noreferrer" className=" social"><FaTwitter/></a>
+    <a href="https://github.com/nmcsakib" target="_blank"  rel="noreferrer" className=" social"><FaGithub/></a>
+    <a href="https://www.linkedin.com/in/nmc-sakib/" target="_blank"  rel="noreferrer" className=" social"><FaLinkedin/></a>
+    <a href="https://stackoverflow.com/users/20857380/nmc-sakib" target="_blank"  rel="noreferrer" className=" social"><FaStackOverflow/></a>
     
    </div>
     </div>

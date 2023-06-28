@@ -70,15 +70,14 @@ return (
 
         
 {
-    skills.map(skill => <>
-    <div className="relative mx-auto mt-5" data-aos="zoom-in" data-aos-duration="300">
+    skills.map((skill, i) => <div key={i} className="relative mx-auto mt-5" data-aos="zoom-in" data-aos-duration="300">
 
 <CircularProgressBar
  colorCircle="#4a4a4a"
  strokeBottom={6}
  round
 colorSlice={skill.sliceColor}
-size="150px"
+size={150}
 fontSize="1em"
 percent={skill.value}
 fontColor='#ffffff'
@@ -103,7 +102,7 @@ style={{
 />
 </CircularProgressBar>
 </div>
-    </>)
+)
 }
 </div>
     </div>

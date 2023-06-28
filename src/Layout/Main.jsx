@@ -24,11 +24,11 @@ const Main = () => {
   }, []);
 
   if(showGif) return <div className="flex w-screen h-screen justify-center items-center">
-<img className="w-full h-full" src={loading} alt="Loading..." />
+<img className="object-cover h-screen md:w-screen" src={loading} alt="Loading..." />
   </div>
 return (
 <main className="max-w-7xl mx-auto bg-[#1f1f1f] min-h-screen">
-<div className="p-10 relative"> 
+<div className="p-5 md:p-10 relative"> 
 <Navigation/>
 <Banner/>   
 <Introduction/> 

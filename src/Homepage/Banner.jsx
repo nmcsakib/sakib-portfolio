@@ -34,16 +34,16 @@ const Banner = () => {
 return (
 <div className="container-primary" id="home">
     <div className="flex flex-col md:flex-row justify-between items-start">
-        <aside>
+        <aside data-aos="slide-right">
         <h1 className="text-6xl tracking-widest font-bold">NMC</h1>
     <p className="text-lg tracking-[1.4em]">SAKIB</p>
         </aside>
-        <aside>
+        <aside className='ml-auto' data-aos="slide-left">
             <p className="text-sm md:text-md font-semibold leading-5 tracking-widest mt-3"> &lt; Front-end <br /> web developer. /&gt;</p>
         </aside>
     </div>
 <div className="flex justify-center items-center flex-col"> 
-<div className='bg-gray-700 md:-mt-16 rounded-full inline-block'>
+<div className='mt-5 bg-gray-700 md:-mt-16 rounded-full inline-block'>
     <img className='w-40 md:w-64' src={profile} alt="" />
 </div>
 
