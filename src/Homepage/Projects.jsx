@@ -1,36 +1,31 @@
 import SectionSubTitle from "../Components/SectionSubTitle";
 import { Tilt } from 'react-tilt'
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
-import project5 from '../assets/project5.png'
-import project6 from '../assets/project6.png'
+
 import { FaArrowCircleRight } from "react-icons/fa";
 const Projects = () => {
  const projects = [
     {
-        image: project1,
+        image: 'https://i.ibb.co/2YQzTND/project1.png',
         link: 'https://sci-fi-toys.web.app/'
     },
     {
-        image: project2,
+        image: 'https://i.ibb.co/KrvRGZR/project2.png',
         link: 'https://foreign-language-camping.web.app/'
     },
     {
-        image: project3,
+        image: 'https://i.ibb.co/FxCw1wW/project3.png',
         link: 'https://job-hunter-app.netlify.app/'
     },
     {
-        image: project4,
+        image: 'https://i.ibb.co/t4RJ8Hn/project4.png',
         link: 'https://chef-hunter-5ddb4.web.app/'
     },
     {
-        image: project5,
+        image: 'https://i.ibb.co/qjjsmBf/project5.png',
         link: 'https://nmcsakib.netlify.app/'
     },
     {
-        image: project6,
+        image: 'https://i.ibb.co/b3ZV1d5/project6.png',
         link: 'https://list-of-ai.netlify.app/'
     },
  ]

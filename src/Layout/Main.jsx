@@ -10,7 +10,7 @@ import Introduction from "../Homepage/Introduction";
 import Skills from "../Homepage/Skills";
 import Navigation from "../Navigation/Navigation";
 import Projects from '../Homepage/Projects';
-import loading from '../assets/loading.gif'
+import loading from '../assets/loading2.gif';
 import { useEffect, useState } from "react";
 import Contact from "../Homepage/Contact";
 import Footer from "../Homepage/Footer";
@@ -20,7 +20,7 @@ const Main = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowGif(false);
-    }, 2400); // change this value to set the duration of the GIF display
+    }, 800); // change this value to set the duration of the GIF display
   }, []);
 
   if(showGif) return <div className="flex w-screen h-screen justify-center items-center">
