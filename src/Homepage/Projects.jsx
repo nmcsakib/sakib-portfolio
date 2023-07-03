@@ -32,7 +32,7 @@ const Projects = () => {
 return (
 <>
 <SectionSubTitle text="Featured projects" />
-<div className="container-primary" data-aos="fade-up" id="projects">
+<div className="container-primary upsetShadow pb-10" data-aos="fade-up" id="projects">
     <div data-aos="flip-up" data-aos-duration={1200}>
         <h2 className="text-3xl text-center my-5 border py-3 bg-white text-[#1f1f1f] inter font-bold"><span className="text-7xl">10+</span> completed projects_</h2>
     </div>

@@ -38,18 +38,19 @@
   }
 }
 .container-primary{
-  @apply border-[0.5px] inter text-white mb-8 border-[#565656] p-3 md:p-10 rounded-2xl 
+  @apply border-[0.5px] inter text-white mb-8 border-[#565656] px-3 py-5 md:p-10 rounded-2xl ;
+ 
 }
 
+.upsetShadow{
+  border: none;
+  box-shadow: -2px -2px 3px #2e2e2e,
+  2px 2px 3px rgba(0, 0, 0, 0.286);
+}
 .wrapper{
  
   width: 100%;
   margin: 0 auto;
-  background-color: red;
- border-radius: 20px;
-  background: #1e1e1e;
-  box-shadow: -3px -3px 7px #2e2e2e,
-              2px 2px 5px rgba(94, 104, 121, 0.288);
 }
 
 .input{
@@ -57,20 +58,18 @@
   width: 100%;
   border: none;
   background: #1e1e1e;
-  box-shadow: inset 2px 2px 5px #2e2e2e,
-              inset -5px -5px 10px #2e2e2e;
+  box-shadow: inset 3px 3px 5px #070707,
+              inset -3px -3px 10px #494949;
   font-size: 14px;
   padding: 17px;
   border-radius: 10px;
 } 
 .social:hover{
-  box-shadow: 2px 2px 5px #2e2e2e,
-              1px 1px 1px rgba(94, 104, 121, 0.286);
+  box-shadow: 2px 2px 3px #2e2e2e,
+              -1px -2px 3px rgba(0, 0, 0, 0.286);
 }
 .social{
-  @apply hover:bg-[#ffffff93] transition-all hover:text-[#1f1f1f] rounded-full p-3;
+  @apply hover:bg-[#ffffff93] transition-all hover:text-[#1f1f1f] rounded-full p-3 upsetShadow;
   background: #1e1e1e;
-  box-shadow: -2px -2px 5px #2e2e2e,
-              1px 1px 1px rgba(94, 104, 121, 0.286);
   font-size: 14px;
 }

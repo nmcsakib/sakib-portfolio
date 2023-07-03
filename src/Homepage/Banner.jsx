@@ -38,7 +38,7 @@ return (
         <h1 className="text-6xl tracking-widest font-bold">NMC</h1>
     <p className="text-lg tracking-[1.4em]">SAKIB</p>
         </aside>
-        <aside className='ml-auto' data-aos="slide-left">
+        <aside className='ml-auto hidden md:block' data-aos="slide-left">
             <p className="text-sm md:text-md font-semibold leading-5 tracking-widest mt-3"> &lt; Front-end <br /> web developer. /&gt;</p>
         </aside>
     </div>

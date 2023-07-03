@@ -24,7 +24,7 @@ const Contact = () => {
 return (
     <>
     <SectionSubTitle text="Let's work together"/>
-<div className="container-primary p-[0px] border-none" data-aos="fade-up" id="contact">
+<div className="container-primary  p-[0px] border-none" data-aos="fade-up" id="contact">
     <div className="wrapper flex flex-col p-5 md:p-10">
    <form className="w-full" ref={form} onSubmit={sendEmail}>
    <input required type="text" name='user_name' className="input text-[#ffffff73] outline-none" placeholder="Enter your name here"/>
