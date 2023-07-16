@@ -27,7 +27,9 @@ const hour = now.getHours();
 const greeting =
   hour >= 5 && hour < 12
     ? '🌞 Good Morning'
-    : hour >= 12 && hour < 17
+    : hour >= 12 && hour < 3 
+    ? '☀️ Good Noon' 
+    : hour >= 3 && hour < 17
     ? '☀️ Good Afternoon'
     : '🌇 Good Evening';
    

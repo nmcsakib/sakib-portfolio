@@ -35,7 +35,7 @@ return (
 <div className="container-primary" id="home">
     <div className="flex flex-col md:flex-row justify-between items-start">
         <aside data-aos="slide-right">
-        <h1 className="text-6xl tracking-widest font-bold">NMC</h1>
+        <h1 className="text-6xl tracking-widest font-bold" title='Nur Mohammad Chowdhury'>NMC</h1>
     <p className="text-lg tracking-[1.4em]">SAKIB</p>
         </aside>
         <aside className='ml-auto hidden md:block' data-aos="slide-left">
