@@ -7,56 +7,62 @@ const skills = [
     {   
         id: 1,
         sliceColor: '#e54c21',
-        value: 80,
+        value: 100,
         image: "https://www.svgrepo.com/show/452228/html-5.svg"
     },
     {   
         id: 2,
         sliceColor: '#1172b8',
-        value: 70,
+        value: 100,
         image: "https://www.svgrepo.com/show/452185/css-3.svg"
     },
     {   
         id: 2,
         sliceColor: '#f0db4f',
-        value: 75,
+        value: 100,
         image: "https://www.svgrepo.com/show/353925/javascript.svg"
     },
     {   
         id: 2,
         sliceColor: '#0c9fcb',
-        value: 65,
+        value: 100,
         image: "https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg"
     },
     {   
         id: 2,
         sliceColor: '#000000',
-        value: 30,
+        value: 100,
         image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg"
     },
     {   
         id: 2,
         sliceColor: '#44a8b3',
-        value: 70,
+        value: 100,
         image: "https://www.svgrepo.com/show/374118/tailwind.svg"
     },
     {   
         id: 2,
         sliceColor: '#8cc84b',
-        value: 45,
+        value: 100,
         image: "https://www.svgrepo.com/show/452075/node-js.svg"
     },
     {   
         id: 2,
         sliceColor: '#13aa52',
-        value: 50,
+        value: 100,
         image: "https://www.svgrepo.com/show/331488/mongodb.svg"
     },
     {   
         id: 2,
         sliceColor: '#fcca3f',
-        value: 60,
+        value: 100,
         image: "https://www.svgrepo.com/show/373595/firebase.svg"
+    },
+    {   
+        id: 2,
+        sliceColor: '##ee513b',
+        value: 100,
+        image: "https://www.svgrepo.com/show/452210/git.svg"
     },
     
 ]
@@ -74,14 +80,12 @@ return (
 
 <CircularProgressBar
  colorCircle="#4a4a4a"
- strokeBottom={6}
  round
 colorSlice={skill.sliceColor}
-size={150}
-fontSize="1em"
+size={135}
+fontSize="0em"
 percent={skill.value}
 fontColor='#ffffff'
-textPosition="1.5em"
 >
 <img
 alt="Random image"
@@ -92,10 +96,10 @@ style={{
   left: '50%',
   padding: '2px',
   position: 'absolute',
-  top: '50%',
+  top: '65%',
   transform: 'translate(-50%, -90%)',
-  width: '50px',
-  height: '50px',
+  width: '60px',
+  height: '60px',
   
 }}
 

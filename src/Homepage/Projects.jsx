@@ -9,8 +9,8 @@ const Projects = () => {
         link: 'https://sci-fi-toys.web.app/'
     },
     {
-        image: 'https://i.ibb.co/KrvRGZR/project2.png',
-        link: 'https://foreign-language-camping.web.app/'
+        image: 'https://i.ibb.co/3pS68Jm/flex-code-6541d-web-app.png',
+        link: 'https://flex-code-6541d.web.app/'
     },
     {
         image: 'https://i.ibb.co/FxCw1wW/project3.png',
@@ -25,8 +25,8 @@ const Projects = () => {
         link: 'https://nmcsakib.netlify.app/'
     },
     {
-        image: 'https://i.ibb.co/b3ZV1d5/project6.png',
-        link: 'https://list-of-ai.netlify.app/'
+        image: 'https://i.ibb.co/KrvRGZR/project2.png',
+        link: 'https://foreign-language-camping.web.app/'
     },
  ]
 return (
