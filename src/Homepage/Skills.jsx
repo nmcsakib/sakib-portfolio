@@ -60,9 +60,15 @@ const skills = [
     },
     {   
         id: 2,
-        sliceColor: '##ee513b',
+        sliceColor: '#ee513b',
         value: 100,
         image: "https://www.svgrepo.com/show/452210/git.svg"
+    },
+    {   
+        id: 2,
+        sliceColor: '#000',
+        value: 100,
+        image: "https://www.svgrepo.com/show/330398/express.svg"
     },
     
 ]

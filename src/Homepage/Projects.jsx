@@ -2,6 +2,7 @@ import SectionSubTitle from "../Components/SectionSubTitle";
 import { Tilt } from 'react-tilt'
 
 import { FaArrowCircleRight } from "react-icons/fa";
+import TeamProjects from "./TeamProjects";
 const Projects = () => {
  const projects = [
     {
@@ -9,8 +10,8 @@ const Projects = () => {
         link: 'https://sci-fi-toys.web.app/'
     },
     {
-        image: 'https://i.ibb.co/3pS68Jm/flex-code-6541d-web-app.png',
-        link: 'https://flex-code-6541d.web.app/'
+        image: 'https://i.ibb.co/KrvRGZR/project2.png',
+        link: 'https://foreign-language-camping.web.app/'
     },
     {
         image: 'https://i.ibb.co/FxCw1wW/project3.png',
@@ -23,17 +24,13 @@ const Projects = () => {
     {
         image: 'https://i.ibb.co/qjjsmBf/project5.png',
         link: 'https://nmcsakib.netlify.app/'
-    },
-    {
-        image: 'https://i.ibb.co/KrvRGZR/project2.png',
-        link: 'https://foreign-language-camping.web.app/'
-    },
+    }
  ]
 return (
 <>
 <SectionSubTitle text="Featured projects" />
 <div className="container-primary upsetShadow pb-10" data-aos="fade-up" id="projects">
-    <div data-aos="flip-up" data-aos-duration={1200}>
+    <div>
         <h2 className="text-3xl text-center my-5 border py-3 bg-white text-[#1f1f1f] inter font-bold"><span className="text-7xl">10+</span> completed projects_</h2>
     </div>
     <div className="grid md:grid-cols-3 gap-8">
@@ -53,6 +50,7 @@ return (
     </div>)
 }
 </div>
+<TeamProjects/>
 </div>
 </>
 );
