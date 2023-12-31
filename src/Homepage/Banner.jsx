@@ -1,7 +1,7 @@
 
 import { useRef } from 'react';
 import Button from '../Components/Button';
-import profile from '../assets/profile.png'
+import profile from '/new_profile.png'
 import resume from '../assets/Nur_Mohammad_Chowdhury_Resume.pdf'
 import { useEffect } from 'react';
 import Typed from 'typed.js';
@@ -43,11 +43,11 @@ return (
         </aside>
     </div>
 <div className="flex justify-center items-center flex-col"> 
-<div className='mt-5 bg-gray-700 md:-mt-16 rounded-full inline-block'>
-    <img className='w-40 md:w-64' src={profile} alt="" />
+<div className='mt-5 bg-gray-700 md:-mt-16 rounded-full inline-block h-60 w-60'>
+    <img className='-mt-12 ' src={profile} alt="" />
 </div>
 
-
+<div className="animated-text before:rounded-full before:w-60 before:h-60 before:absolute  md:before:top-[11%] md:before:left-[39%] before:top-32 before:left-20 sm:before:top-22 sm:before:left-48 before:z-[-1] before:blur-[24px] before:opacity-60"></div>
 <p className="text-md font-thin tracking-widest text-center w-5/6 mt-2 mx-auto">Hello, this is <span className="font-bold text-lg tracking-[0.3em]">SAKIB</span>. A passionate web developer from <span className='font-bold text-transparent bg-gradient-to-br bg-gradient-radial from-green-500 to-red-500 bg-clip-text'>Bangladesh.</span><br />
 I am curious about <br /> <span ref={el}>React.js</span>
 </p>
