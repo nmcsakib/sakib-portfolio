@@ -36,7 +36,7 @@ return (
    <textarea name="message" cols="30" rows="8" className="input outline-none" placeholder="Write details here"></textarea>
    <button className="px-3 relative z-20 active:bg-[#ffffff73] py-2 w-24 text-white elite social rounded-lg mt-4">Send</button>
    </form>
-   <div className="flex flex-wrap md:flex-nowrap pt-5 gap-4 justify-center items-center">
+   <div className="relative z-20 flex flex-wrap md:flex-nowrap pt-5 gap-4 justify-center items-center">
     <a href="http://www.facebook.com/sakib.sjs" target="_blank"  rel="noreferrer" className=" social"><FaFacebook/></a>
     <a href="https://twitter.com/nmcakib01" target="_blank"  rel="noreferrer" className=" social"><FaTwitter/></a>
     <a href="https://github.com/nmcsakib" target="_blank"  rel="noreferrer" className=" social"><FaGithub/></a>

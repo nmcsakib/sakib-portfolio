@@ -43,12 +43,12 @@ return (
         </aside>
     </div>
 <div className="flex justify-center items-center flex-col"> 
-<div className='mt-5 bg-gray-700 md:-mt-16 rounded-full inline-block h-60 w-60'>
-    <img className='-mt-12 ' src={profile} alt="" />
+<div className='mt-5 backdrop-blur-xl bg-gray-700/80 md:-mt-16 rounded-full inline-block h-60 w-60'>
+    <img className='-mt-12 relative z-20' src={profile} alt="" />
 </div>
 
-<div className="animated-text before:rounded-full before:w-60 before:h-60 before:absolute  md:before:top-[11%] md:before:left-[39%] before:top-32 before:left-20 sm:before:top-22 sm:before:left-48 before:z-[-1] before:blur-[24px] before:opacity-60"></div>
-<p className="text-md font-thin tracking-widest text-center w-5/6 mt-2 mx-auto">Hello, this is <span className="font-bold text-lg tracking-[0.3em]">SAKIB</span>. A passionate web developer from <span className='font-bold text-transparent bg-gradient-to-br bg-gradient-radial from-green-500 to-red-500 bg-clip-text'>Bangladesh.</span><br />
+<div className="animated-text rounded-full w-60 h-60 relative  md:-top-60 -top-60 md:left-0 sm:top-22 sm:left-0 z-[-1] blur-[24px] opacity-60"></div>
+<p className="text-md font-thin tracking-widest text-center w-5/6 -mt-36 mx-auto">Hello, this is <span className="font-bold text-lg tracking-[0.3em]">SAKIB</span>. A passionate web developer from <span className='font-bold text-transparent bg-gradient-to-br bg-gradient-radial from-green-500 to-red-500 bg-clip-text'>Bangladesh.</span><br />
 I am curious about <br /> <span ref={el}>React.js</span>
 </p>
 <span className='mt-5'>

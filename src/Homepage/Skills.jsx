@@ -78,7 +78,7 @@ return (
     <div className="container-primary" data-aos="fade-up" id="skills">
         <h2 className="text-2xl tracking-wider inter text-left"><span className="text-3xl md:text-5xl tracking-widest block">Achieved_</span> <span className="text-[#42ccc4]">Skills</span> during last one year</h2>
         <hr className="w-2/4 my-3" />
-        <div className="grid md:grid-cols-4 items-center gap-5 justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 items-center gap-5 justify-center">
 
         
 {

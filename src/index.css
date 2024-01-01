@@ -82,7 +82,7 @@
 
 
 
-.animated-text:before {
+.animated-text{
   animation: color-animation 3s linear infinite;
   background-size: auto auto;
   background-clip: border-box;
