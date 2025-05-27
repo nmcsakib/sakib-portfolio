@@ -1,7 +1,7 @@
 const Footer = () => {
 return (
 <footer className="p-4 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 bg-slate-800">
-    <span className="text-sm sm:text-center text-gray-400">© {new Date().getFullYear()} <a href="https://facebook.com/sakib.sjs" className="underline"  rel="noreferrer" target="_blank">NMC Sakib</a>. All Rights Reserved.
+    <span className="text-sm sm:text-center text-gray-400">© {new Date().getFullYear()} <a href="https://facebook.com/nmcsakib.1" className="underline"  rel="noreferrer" target="_blank">NMC Sakib</a>. All Rights Reserved.
     </span>
     <ul className="relative z-20 grid md:grid-cols-2 md:text-center grid-cols-2 items-end mt-3 sm:mt-0">
         <li>
