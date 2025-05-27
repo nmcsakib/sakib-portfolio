@@ -1,5 +1,4 @@
 import SectionSubTitle from "../Components/SectionSubTitle";
-import { Tilt } from 'react-tilt'
 
 import { FaArrowCircleRight } from "react-icons/fa";
 import TeamProjects from "./TeamProjects";
@@ -38,7 +37,7 @@ return (
          
 {
     projects.map((project, index) => <div key={index} className="shadow-lg ">
-    <Tilt  
+    <div
 
     style={{ height: '100%', width: '75%', margin: 'auto', position: 'relative'}}>
 
@@ -46,7 +45,7 @@ return (
      
      <a href={project.link} rel="noreferrer" target="_blank" className=" text-lg text-blue-600 absolute bottom-2 text-stroke left-2 inter tracking-wider border-b-2 border-blue-500"> Preview <FaArrowCircleRight className="inline"/></a>
     
-    </Tilt>
+    </div>
     </div>)
 }
 
