@@ -23,10 +23,6 @@ const Projects = () => {
     {
         image: '/muktopathagar.jpg',
         link: 'https://mukto-pathagar.netlify.app/'
-    },
-    {
-        image: 'https://i.ibb.co/qjjsmBf/project5.png',
-        link: 'https://nmcsakib.netlify.app/'
     }
  ]
 return (
