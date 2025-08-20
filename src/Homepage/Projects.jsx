@@ -5,24 +5,24 @@ import TeamProjects from "./TeamProjects";
 const Projects = () => {
  const projects = [
     {
-        image: 'https://i.ibb.co/2YQzTND/project1.png',
-        link: 'https://sci-fi-toys.web.app/'
+        image: '/basa-khojo.png',
+        link: 'https://basa-khojo.vercel.app/'
     },
     {
-        image: 'https://i.ibb.co/KrvRGZR/project2.png',
-        link: 'https://foreign-language-camping.web.app/'
+        image: '/muktopathagar.jpg',
+        link: 'https://mukto-pathagar.netlify.app/'
     },
     {
         image: 'https://i.ibb.co/FxCw1wW/project3.png',
         link: 'https://job-hunter-app.netlify.app/'
     },
     {
-        image: 'https://i.ibb.co/t4RJ8Hn/project4.png',
-        link: 'https://chef-hunter-5ddb4.web.app/'
+        image: 'https://i.ibb.co/2YQzTND/project1.png',
+        link: 'https://sci-fi-toys.web.app/'
     },
     {
-        image: '/muktopathagar.jpg',
-        link: 'https://mukto-pathagar.netlify.app/'
+        image: 'https://i.ibb.co/t4RJ8Hn/project4.png',
+        link: 'https://chef-hunter-5ddb4.web.app/'
     }
  ]
 return (
